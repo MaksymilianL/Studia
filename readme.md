@@ -15,6 +15,7 @@ DELETE FROM statek;
 DROP TABLE statek;
 
 5. e)
+
 CREATE TABLE zwierz 
 
 (id_zwierz INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
@@ -24,6 +25,7 @@ nazwa VARCHAR(45) DEFAULT NULL,
 wiek INT DEFAULT NULL);
 
 5. f)
+
 INSERT INTO zwierz SELECT * FROM postac 
 
 WHERE rodzaj=('ptak', 'waz');
