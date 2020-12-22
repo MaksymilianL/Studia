@@ -1,20 +1,37 @@
 lab.04
+
 Zadanie 5.
+
 5. a)
+
 UPDATE postac SET statek=default;
+
 5. b)
+
 DELETE FROM postac WHERE id_postaci=6;
+
 5. c)
+
 DELETE FROM statek;
+
 5. d)
+
 DROP TABLE statek;
+
 5. e)
+
 CREATE TABLE zwierz 
+
 (id_zwierz INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+
 nazwa VARCHAR(45) DEFAULT NULL,
+
 wiek INT DEFAULT NULL);
+
 5. f)
+
 INSERT INTO zwierz SELECT * FROM postac 
+
 WHERE rodzaj=('ptak', 'waz');
 
 lab0.5
